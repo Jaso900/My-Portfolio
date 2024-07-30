@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - My Portfolio</title>
+<style type="text/css">
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 1em 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 1em;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+    text-align: center;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#projects .project {
+    margin: 2em 0;
+    text-align: left;
+}
+
+#contact form div {
+    margin: 1em 0;
+}
+
+#contact form label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+#contact form input,
+#contact form textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#contact form button {
+    padding: 0.5em 2em;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#contact form button:hover {
+    background: #555;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="projects">
+            <h1>My Projects</h1>
+            <div class="project">
+                <h2>Project 1: Personal Blog</h2>
+                <p>A blog site where I share my thoughts and tutorials on web development. Built with HTML, CSS, and JavaScript.</p>
+                <a href="https://github.com/yourusername/project1">View on GitHub</a> | <a href="https://yourproject1.com">Live Demo</a>
+            </div>
+            <div class="project">
+                <h2>Project 2: E-commerce Site</h2>
+                <p>A simple online store with product listings, a shopping cart, and a checkout process. Built with React and Node.js.</p>
+                <a href="https://github.com/yourusername/project2">View on GitHub</a> | <a href="https://yourproject2.com">Live Demo</a>
+            </div>
+            <!-- Add more projects as needed -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
